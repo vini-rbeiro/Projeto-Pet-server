@@ -1,0 +1,11 @@
+/* Nav menu */
+#navmenu_list a:nth-child(1) {
+  background-color: #cbe300;
+  color: black;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+#navmenu_list a:nth-child(1):hover {
+  text-decoration: none;
+}

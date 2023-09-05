@@ -1,0 +1,31 @@
+#navmenu {
+  width: 55%;
+  height: 90px;
+  background-color: var(--color-nav);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+#navmenu h2 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#navmenu_list {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+
+#navmenu a {
+  color: white;
+  list-style-type: none;
+}
+
+#navmenu a:hover {
+  text-decoration: underline;
+}

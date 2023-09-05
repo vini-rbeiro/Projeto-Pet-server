@@ -1,0 +1,98 @@
+/* Nav menu */
+#navmenu a:nth-child(2) {
+  background-color: var(--green);
+  color: black;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+#navmenu a:nth-child(2):hover {
+  text-decoration: none;
+}
+
+/* Header */
+#header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* Main Content */
+#content {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  margin: auto;
+}
+
+#container {
+  background-color: var(--color-container);
+  margin-top: 100px;
+  height: 380px;
+  width: 300px;
+  padding: 30px 40px;
+  border-radius: 7px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#container h3 {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 6px;
+}
+
+#container span {
+  font-size: 1.8rem;
+}
+
+#container p {
+  color: white;
+  margin-top: 17px;
+}
+
+#container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 20px;
+  padding-left: 16.5px;
+  list-style-type: none;
+  color: #b5b5b5;
+}
+
+#container-list li::before {
+  content: "\2022";
+  color: var(--green);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#container button {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  margin-bottom: 20px;
+  padding: 20px 70px;
+  background-color: var(--green);
+  border-style: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+#container button:hover {
+  background-color: transparent;
+  outline: var(--green) 1px solid;
+  color: white;
+  cursor: pointer;
+}
